@@ -67,17 +67,17 @@ if (isset($_POST['register'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'gerald18.gaa@gmail.com';
+            $mail->Username = 'gcarago@fit.edu.ph';
 
             // gmail application password
-            $mail->Password = 'ifjvsmewjhjrorce';
+            $mail->Password = 'dqujusniljxisvtl';
 
             // use secure gmail connection and required smtp port
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             $mail->setFrom(
-                'gerald18.gaa@gmail.com',
+                'gcarago@fit.edu.ph',
                 'CALAMARES Tech Hub'
             );
 
